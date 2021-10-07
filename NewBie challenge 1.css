@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    max-height:70rem;
+}
+.main-container{
+    border-radius: 2%;
+    box-shadow: 0rem 0rem 0.7rem 0.1rem rgb(161, 161, 161);
+    /* border: 1px solid rgb(105, 53, 53); */
+    height: 100%;
+    width: 23rem;
+    margin: 3rem auto 1rem;   padding: 4rem 1.5rem 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+.main-container div{
+    /* border: 2px solid red; */
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.4rem;
+    margin: 0 auto;
+    padding: 1rem;
+    color: whitesmoke;
+    display: inline;
+}
+
+.parent-1{
+    background: rgba(201, 114, 15, 0.959);
+}
+.parent-2{
+    background: rgb(10, 98, 91);
+}
+.parent-3{
+    background: rgb(5, 34, 39);
+}
+
+img{
+    object-fit: contain;
+    height: 14%;
+}
+.title{
+/* border: 1px solid orangered; */
+font-size: 2.6rem;
+/* font-family: Arial, Helvetica, sans-serif; */
+font-family: "Teko";
+}
+
+p{
+    margin-top: 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    color: rgb(0, 0, 0);
+    background: rgb(248, 248, 248);
+    cursor: pointer;
+    border: 1px solid greenyellow;
+    display: inline;
+    border-radius: 0.9rem;
+    padding: 0.2rem 1rem 0.2rem 1rem ;
+}
+
+.button:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(250, 82, 82);
+}
+
+.main-container p{
+    /* border: 0.5px solid red; */
+    margin-bottom: 2rem;
+}
+
+@media (min-width:1200px) {
+  .main-container{
+      width: 95%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .main-container div{
+      border-radius: 0.2rem;
+      margin-left: 0;
+      margin-right: 0;
+  }
+  #second-para{
+      /* border: 2px solid greenyellow; */
+      padding-bottom: 1rem;
+  }
+}
